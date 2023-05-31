@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/adaptive-card-extension-manifest.schema.json",
+  "id": "f659bd98-7adc-42f4-aa00-f93dd4d8567f",
+  "alias": "InternalJobsAdaptiveCardExtension",
+  "componentType": "AdaptiveCardExtension",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["Dashboard"],
+  "preconfiguredEntries": [{
+    "groupId": "bd067b1e-3ad5-4d5d-a5fe-505f07d7f59c", 
+    "group": { "default": "Dashboard" },
+    "title": { "default": "Internal Jobs" },
+    "description": { "default": "Internal Jobs Description" },
+    "iconImageUrl": "https://img.uxwing.com/wp-content/themes/uxwing/download/business-professional-services/job-seeker-icon.png",
+    "properties": {
+      "title": "Internal Jobs"
+    },
+    "cardSize": "Medium"
+  }]
+}

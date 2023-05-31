@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "internal-jobs-client-side-solution",
+    "id": "b3d287f1-c152-4b8a-9140-bc537fad8c06",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "internal-jobs description"
+      },
+      "longDescription": {
+        "default": "internal-jobs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "internal-jobs Feature",
+        "description": "The feature that activates elements of the internal-jobs solution.",
+        "id": "7e92ae48-7369-4f23-ae6d-8da1521822dd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/internal-jobs.sppkg"
+  }
+}
